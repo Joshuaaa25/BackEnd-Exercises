@@ -1,15 +1,19 @@
 {
-  "name": "ex-2",
+  "name": "exercise03",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.30.1"
-  }
+    "axios": "^1.3.4",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.0"
+  },
+  "description": ""
 }
